@@ -19,3 +19,7 @@ function destructivelyRemoveFirstKitten(){
 function appendKitten(name){
   return [...window.kittens, name];
 }
+
+function prependKitten(name){
+  return [name, ...window.kittens];
+}
