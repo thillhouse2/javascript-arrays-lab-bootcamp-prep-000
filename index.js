@@ -23,3 +23,7 @@ function appendKitten(name){
 function prependKitten(name){
   return [name, ...window.kittens];
 }
+
+function removeLastKitten(){
+  return window.kittens
+}
